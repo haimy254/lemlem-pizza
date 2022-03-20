@@ -36,16 +36,17 @@
           </h1>
           <h2>PERFECT SLICE, PERFECT PRICE.</h2>
         </div>
+      <!-- </div> -->
 
-        <FORM Name="myform">
+        <form Name="myform">
             <div class="lm-hero-items">
          <div class="lm-hero-txtprice">
           <select NAME="sizes" onChange="calculatePrice()" id="size">
-           <OPTION value="0">pizza size</OPTION>
-           <OPTION value="500">small 500ksh</OPTION>
-           <OPTION value="750">medium 750ksh</OPTION>
-           <OPTION value="1000">large 1000ksh</OPTION>
-           <OPTION value="1200">mega 1200ksh</OPTION>
+           <option value="0">pizza size</option>
+           <option value="500">small 500ksh</option>
+           <option value="750">medium 750ksh</option>
+           <option value="1000">large 1000ksh</option>
+           <option value="1200">mega 1200ksh</option>
           </select>
          </div>
         
@@ -64,8 +65,19 @@
          </select>
         </div>
 
- </div>
-        </FORM>
+        <div class="lm-hero-txtpieces">
+          <select NAME="piece" onChange="calculatePrice()" id="piece">
+           <option value="0">no of pizza</option>
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5</option>
+           <option value="6">6</option>
+          </select>
+         </div>
+    </div>
+        </form>
         </section>
       </div>
     </section>
