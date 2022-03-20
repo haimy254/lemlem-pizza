@@ -74,7 +74,8 @@ body {
   margin-left: 3rem;
 }
 
-.lm-hero-txtpieces {
-  margin-left: 3rem;
-  padding: 2rem;
+.lm-hero-quantity {
+  /* margin-left: 3rem;
+  padding: 2rem; */
+  display: flex;
 }
