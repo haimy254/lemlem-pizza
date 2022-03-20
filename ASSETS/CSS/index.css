@@ -62,3 +62,12 @@ body {
     padding: 0.4rem 1rem;
   }
 } */
+
+.lm-hero-items {
+  display: flex;
+  margin: 2rem;
+}
+
+.lm-hero-txtpiza {
+  margin-right: 2rem;
+}
