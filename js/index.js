@@ -14,6 +14,7 @@ function calculatePrice(myform) {
 
   var elt = document.getElementById("toppings");
   var toppings = elt.options[elt.selectedIndex].value;
+  console.log("feature added");
 
   var elt = document.getElementById("delivery");
   var delivery = elt.options[elt.selectedIndex].value;
