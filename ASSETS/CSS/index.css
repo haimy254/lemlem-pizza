@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  text-decoration: none;
+  border: none;
+}
+
+html,
+body {
+  /* font-size: 16px; */
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  background: var(--white);
+  line-height: 1.3;
+}
+
+.lm-hero-section {
+  width: 100%;
+  max-height: 300vh;
+  background: -webkit-linear-gradient(110deg, #d915a8 30%, #0f110f 60%);
+}
+.lm-hero-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/ASSETS/PHOTO/new\ .jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  opacity: 80%;
+  display: flex;
+}
+
+.lm-hero-logo {
+  margin-top: 1rem;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.lm-hero-logo > h2 {
+  color: rgba(0, 0, 0, 0.89);
+}
+
+.lm-hero-logo > h1 {
+  margin-top: 0;
+}
+
+/* .smb-nav-logo img {
+  max-width: 35rem;
+}
+
+@media (max-width: 640px) {
+  .smb-nav {
+    background: var(--darkBlue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.4rem 1rem;
+  }
+} */
