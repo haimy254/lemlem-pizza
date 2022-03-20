@@ -75,7 +75,18 @@ body {
 }
 
 .lm-hero-quantity {
-  /* margin-left: 3rem;
-  padding: 2rem; */
+  padding: 2rem;
   display: flex;
+}
+
+.lm-hero-txtpieces {
+  margin-left: 3rem;
+}
+
+.lm-hero-toppings {
+  margin-left: 3rem;
+}
+
+.lm-here-delivery {
+  margin-left: 3rem;
 }
