@@ -18,7 +18,7 @@ body {
 }
 
 @font-face {
-  font-family: "adineuePRO";
+  font-family: "poppins", "sans-serif";
   src: url("../assets/fonts/adineuePRO.ttf");
 }
 
@@ -30,13 +30,13 @@ body {
       rgba(44, 24, 5, 0),
       rgba(58, 32, 2, 0)
     ),
-    url(../assets/images/bg-img.jpg);
+    url(../PHOTO/bg-img.jpg);
   object-fit: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
 
-.lm-logo img {
+.lm-logo-img {
   width: 6rem;
 }
 
