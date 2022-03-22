@@ -10,11 +10,11 @@
 html,
 body {
   /* font-size: 16px; */
-  color: white;
-  font-family: "Poppins", sans-serif;
-  background: -webkit-linear-gradient(110deg, #d915a8 30%, #0f110f 60%);
-  /* line-height: 1.3; */
-  background-image: url(/ASSETS/PHOTO/new\ .jpg);
+  color: #000;
+  font-family: adineuePRO, sans-serif;
+  background: var(--white);
+  line-height: 1.3;
+  font-size: 16px;
 }
 
 .lm-hero-section {
