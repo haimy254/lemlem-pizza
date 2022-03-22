@@ -20,35 +20,30 @@
     <link rel="stylesheet" href="/ASSETS/CSS/index.css" />
   </head>
   <body>
-    <!-- <nav class="smb-nav">
-      <div class="smb-nav-logo">
-        <a href="#"><img src="/ASSETS/PHOTO/navimg.jpg" alt="" srcset="" /></a>
-      </div>
-    </nav> -->
-    <section class="lm-hero-section">
-      <div class="lm-hero-bg">
-        <div class="lm-hero-logo">
-          <h1>
+    
+    <main class="lm-main-body">
+      <div class="container py-5">
+        <div class="row py-3 lm-logo">
             <img
               src="/ASSETS/PHOTO/Lemlem-designstyle-colors-m.png"
               alt=""
-            />PIZZA
-          </h1>
+            />
           <h2>PERFECT SLICE, PERFECT PRICE.</h2>
         </div>
-      <!-- </div> -->
+   
 
-        <form id="myform">
-            <div class="lm-hero-items">
-         <div class="lm-hero-txtprice">
-          <select NAME="sizes" onChange="calculatePrice()" id="size">
-           <option value="0">pizza size</option>
-           <option value="500">small 500ksh</option>
-           <option value="750">medium 750ksh</option>
-           <option value="1000">large 1000ksh</option>
-           <option value="1200">mega 1200ksh</option>
-          </select>
-         </div>
+         <section class="lm-menu my-4">
+          <form action="" class="" id="lm-menu-form">
+            <div class="lm-menu-picker">
+              <div>
+                <label for="">Size</label>
+                <select class="form-control" name="size" id="size">
+                  <option value="small">small</option>
+                  <option value="medium">medium</option>
+                  <option value="large">large</option>
+                  <option value="mega">mega</option>
+                </select>
+              </div>
         
         <div class="lm-hero-txtpiza">
          <select NAME="classypiza" onChange="calculatePrice()" id="classypiza">

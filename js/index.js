@@ -24,7 +24,7 @@ function calculatePrice(myform) {
   classypiza = parseInt(classypiza);
   piece = parseInt(piece);
   crust = parseInt(crust);
-  toppings = parseInt(toppigs);
+  toppings = parseInt(toppings);
   delivery = parseInt(delivery);
 
   //calculate total value

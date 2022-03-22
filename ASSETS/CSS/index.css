@@ -10,10 +10,11 @@
 html,
 body {
   /* font-size: 16px; */
-  color: #000;
+  color: white;
   font-family: "Poppins", sans-serif;
-  background: var(--white);
-  line-height: 1.3;
+  background: -webkit-linear-gradient(110deg, #d915a8 30%, #0f110f 60%);
+  /* line-height: 1.3; */
+  background-image: url(/ASSETS/PHOTO/new\ .jpg);
 }
 
 .lm-hero-section {
@@ -25,7 +26,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/ASSETS/PHOTO/new\ .jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   justify-content: center;
@@ -77,6 +78,8 @@ body {
 .lm-hero-quantity {
   padding: 2rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lm-hero-txtpieces {
@@ -89,4 +92,10 @@ body {
 
 .lm-here-delivery {
   margin-left: 3rem;
+}
+
+.lm-hero-amount {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
