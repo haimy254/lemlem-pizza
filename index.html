@@ -83,32 +83,62 @@
             </select>
         </div>
 
-        <div class="lm-hero-toppings">
-          <select NAME="toppings" onChange="calculatePrice()" id="toppings">
-           <option value="0">toppings</option>
-           <option value="200">roasted tomatoes</option>
-           <option value="200">roasted artichokes</option>
-           <option value="250">roasted broccoli</option>
-           <option value="150">grilled eggplant</option>
-           <option value="200">grilled zucchini</option>
+       <div>
+                <label for="">toppings</label>
+                <select class="form-control" name="toppings" id="toppings">
+           <option value="Roasted Tomatoes">roasted tomatoes</option>
+           <option value="Roasted Artichokes">roasted artichokes</option>
+           <option value="Roasted Broccoli">roasted broccoli</option>
+           <option value="grilled eggplant">grilled eggplant</option>
+           <option value="grilled zucchini">grilled zucchini</option>
            </select>
         </div>
 
-        <div class="lm-here-delivery">
-          <select NAME="delivery" onChange="calculatePrice()" id="delivery">
-           <option value="0">Want delivery?</option>
-           <option value="200">Yes</option>
-           <option value="0">No</option>
-          </select>
         </div>
-    </div>
-<div class="lm-hero-amount">
-    <button type="button" onclick="calculatetotalamount()">AMOUNT</button>
+              <br />
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="delivery" />
+                <label class="form-check-label" for="delivery">
+                  Delivery
+                </label>
+              </div>
 
-The new calculated price:<INPUT type="text" id="totalamount" Size=8>
-    </div>
-</form>
+              <button type="submit" class="btn btn-sm btn-warning m-2">
+                Order
+              </button>
+            </div>
+          </form>
+        </section>
 
+<section class="lm-ordered-items hide">
+          <h6 class="text-warning bg-dark text-center py-2">Ordered Pizza</h6>
+          <table class="table table-responsive-sm">
+            <thead>
+              <tr>
+                <th scope="col">Size</th>
+                <th scope="col">Flavour</th>
+                <th scope="col">Number</th>
+                <th scope="col">Crust</th>
+                <th scope="col">Toppings</th>
+                <th scope="col">Cost</th>
+              </tr>
+ </thead>
+            <tbody id="ordered-items-body"></tbody>
+          </table>
+          <p>Delivery: <span id="delivery-display">No</span></p>
+          <h5>
+            Total : Kshs
+            <span id="total-cost-display">0</span>
+          </h5>
+          <button class="btn-sm btn-warning mr-5" id="check-out">
+            Check Out
+          </button>
+           <button class="btn-sm btn-warning" id="another-order">
+            Another Order
+          </button>
+        </section>
+      </div>
+    </main>
 
         </section>
       </div>
