@@ -1,35 +1,27 @@
-function calculatePrice(myform) {
-  //Get selected data
-  var elt = document.getElementById("size");
-  var size = elt.options[elt.selectedIndex].value;
+$(document).ready(function () {
+  let menuForm = $("#lm-menu-form");
 
-  var elt = document.getElementById("classypiza");
-  var classypiza = elt.options[elt.selectedIndex].value;
+  let size = $("#size");
+  let sizevalue;
 
-  var elt = document.getElementById("piece");
-  var piece = elt.options[elt.selectedIndex].value;
+  let flavour = $("#flavour");
+  let flavourvalue;
 
-  var elt = document.getElementById("crust");
-  var crust = elt.options[elt.selectedIndex].value;
+  let number = $("#number");
+  let numbervalue;
 
-  var elt = document.getElementById("toppings");
-  var toppings = elt.options[elt.selectedIndex].value;
-  console.log("feature added");
+  let crust = $("#crust");
+  let crustvalue;
 
-  var elt = document.getElementById("delivery");
-  var delivery = elt.options[elt.selectedIndex].value;
+  let toppings = $("#topping");
+  let toppingsvalue;
 
-  //convert data to integers
-  size = parseInt(size);
-  classypiza = parseInt(classypiza);
-  piece = parseInt(piece);
-  crust = parseInt(crust);
-  toppings = parseInt(toppings);
-  delivery = parseInt(delivery);
+  let totalcost;
 
-  //calculate total value
-  var total = size(size * piece) + classypiza + crust + toppings + delivery;
-
-  //print value to  totalamount
-  document.getElementById("totalamount").value = total;
-}
+  let sizeprice = {
+    small: 500,
+    medium: 750,
+    large: 1000,
+    mega: 1200,
+  };
+});
